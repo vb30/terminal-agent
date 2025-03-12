@@ -14,7 +14,7 @@ An AI-powered terminal assistant using Google's Gemini 2.0 that can execute comm
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/terminal-agent.git
+git clone https://github.com/vb30/terminal-agent.git
 cd terminal-agent
 
 # Create a virtual environment
