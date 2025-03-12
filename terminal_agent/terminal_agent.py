@@ -80,7 +80,7 @@ class TerminalAgent:
         
         # Initialize Gemini model
         self.model = genai.GenerativeModel(
-            'gemini-2.0-flash-thinking-exp-01-21',
+            'gemini-2.0-flash',
             safety_settings=safety_settings
         )
     
