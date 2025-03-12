@@ -1,0 +1,3 @@
+[console_scripts]
+terminal-agent = terminal_agent.cli:main
+

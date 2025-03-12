@@ -1,0 +1,89 @@
+Metadata-Version: 2.1
+Name: terminal-agent
+Version: 0.1.0
+Summary: An AI-powered terminal agent using Google's Gemini 2.0
+Home-page: https://github.com/yourusername/terminal-agent
+Author: Your Name
+Author-email: your.email@example.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+
+# Terminal Agent
+
+An AI-powered terminal assistant using Google's Gemini 2.0. This agent can help you with various terminal tasks, execute commands, manage files, and provide intelligent assistance through natural language interaction.
+
+## Features
+
+- Natural language interaction with your terminal
+- Execute shell commands with automatic error handling and retries
+- File and directory operations
+- Powered by Google's Gemini 2.0 AI model
+- Beautiful terminal UI with rich text formatting
+
+## Installation
+
+1. Clone this repository:
+```bash
+git clone https://github.com/yourusername/terminal-agent.git
+cd terminal-agent
+```
+
+2. Install the package:
+```bash
+pip install -e .
+```
+
+## Configuration
+
+You'll need a Google Gemini API key to use this tool. You can get one from the [Google AI Studio](https://makersuite.google.com/app/apikey).
+
+The API key can be provided in two ways:
+1. Set it as an environment variable: `GEMINI_API_KEY=your_api_key`
+2. Create a `.env` file in your project directory with: `GEMINI_API_KEY=your_api_key`
+3. If not provided, the tool will prompt you for the key on first run
+
+## Usage
+
+After installation, you can start the terminal agent by running:
+
+```bash
+terminal-agent
+```
+
+Example commands you can try:
+
+- "List all files in the current directory"
+- "Create a new directory called 'test' and cd into it"
+- "Show me the contents of config.json"
+- "Find all Python files containing the word 'test'"
+
+To exit the agent, type 'exit' or press Ctrl+C.
+
+## Development
+
+To set up the development environment:
+
+1. Create a virtual environment:
+```bash
+python -m venv venv
+source venv/bin/activate  # On Windows: venv\Scripts\activate
+```
+
+2. Install development dependencies:
+```bash
+pip install -r requirements.txt
+```
+
+## License
+
+MIT License
+
+## Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request.
+

@@ -1,0 +1,11 @@
+README.md
+setup.py
+terminal_agent/__init__.py
+terminal_agent/agent.py
+terminal_agent/cli.py
+terminal_agent.egg-info/PKG-INFO
+terminal_agent.egg-info/SOURCES.txt
+terminal_agent.egg-info/dependency_links.txt
+terminal_agent.egg-info/entry_points.txt
+terminal_agent.egg-info/requires.txt
+terminal_agent.egg-info/top_level.txt
